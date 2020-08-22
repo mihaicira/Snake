@@ -1,0 +1,576 @@
+<html>
+	<head>
+		<title>SNAKE</title>
+		<link rel="stylesheet" href="snake.css">
+	</head>
+	<body>
+		<div id="table">
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+
+			<div id="row">
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+				<div id="sq"><div></div></div>
+			</div>
+		</div>
+		<div class="coverimg pause"><h1>PAUSED</h1><h2>press enter once to start</h2></div>
+
+		<div class="coverimg start"><h1>GOOD MORNING</h1><h2>press enter once to start</h2></div>
+
+
+		<div class="scoreboard">
+			<p id="score"></p>
+			<p id="units"></p>
+			<p> created & developed by © Mihai Cîra</p>
+		</div>
+
+		<a href="../main.html">
+			<div id="gobackbtn">HOME</div>
+		</a>
+
+		<script src="snake.js"></script>
+	</body>
+</html>
